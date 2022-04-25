@@ -48,6 +48,7 @@ The workflow contains all the tasks required to achieve the objective as shown a
 
 
 **Workflow input variables**:
+
 **Note**: All input variables under this workflow are required.
 ![10_37_31](https://user-images.githubusercontent.com/104349654/165052705-a05eb5a3-4429-4243-9beb-8bb2763aa133.jpg)
 
@@ -72,6 +73,7 @@ The workflow contains all the tasks required to delete and/or add addtional filt
 - For each filter created, assign to contract.  
 
 **Workflow input variables**:
+
 **Note**: All input variables are optional except the `Name of Tenant` and `External Target`.
 ![12_11_25](https://user-images.githubusercontent.com/104349654/165069298-446d1e5a-d565-496c-9f55-03282dd12b94.jpg)
 
