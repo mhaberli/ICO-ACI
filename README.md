@@ -93,4 +93,4 @@ ICO supports the functionality of rollbacks by reverting entities created or mod
 
 ## Documentation reference:
 - [Workflow Designer reference](https://www.intersight.com/help/saas/resources/Workflow_Designer#requests).
-- [Tasks reference]([https://intersight.com/help/saas/resources/Task_Designer#supported_requests](https://intersight.com/help/saas/resources/Task_Designer#supported_requests)).
+- [Tasks reference]([https://intersight.com/help/saas/resources/Task_Designer#supported_requests](https://intersight.com/help/saas/resources/Task_Designer#supported_requests).
