@@ -1,6 +1,7 @@
 # The process of automating ACI basic tenant configuration using Intersight Cloud Orchestrator (ICO).
 
-# Table of Contents
+
+## Table of Contents
 * [Overview](#markdown-header-overview)
 * [Prerequisites](#markdown-header-prerequisites)
 * [Index](#markdown-header-index)
@@ -8,6 +9,8 @@
 * [Workflow - ACI Update Filter](#markdown-header-workflow-aci-update-filter)
 * [Rollbacks](#markdown-header-rollbacks)
 * [Documentation reference](#markdown-header-documentation-reference)
+
+- - -
 
 ## Overview
 
@@ -18,14 +21,16 @@ This document describes the process of automating ACI basic tenant configuration
 ![10_43_55](https://user-images.githubusercontent.com/104349654/165053540-13ffeab8-fea7-4cac-9a0b-ea999d8fffab.jpg)
 
 
-
 ## Prerequisites
 To execute the workflow, the APIC controller must be connected to Intersight by adding it as a `Target`. [Link to adding targets](https://intersight.com/help/saas/getting_started/claim_targets#target_claim_for_compute/fabric_hyperconverged_orchestrator_and_platform_services_targets).
+
 
 ## Index 
 - ``Task input variables``: An input parameter (optional or mandatory) that defines a variable in the API request. Task inputs are referenced as ``{{.global.task.input.InputName}}``.
 - ``Workflow input variables``: An variable (optional or mandatory) that can be mapped to task inputs. 
 - `Body`: Part of mandatory task input variables that contains the JSON body request sent to the APIC.  
+
+
 
 ##  Workflow - ACI Basic Tenant Config:
 The workflow contains all the tasks required to achieve the objective as shown above under objective. The workflow accomplishes the tasks as follow:
@@ -94,6 +99,8 @@ The workflow contains all the tasks required to delete and/or add addtional filt
 - Name of Tenant: Must be the exact same name of the `Tenant` as in the previous workflow.
 - Delete Port: List of ports to be deleted. 
 - Add Port: List of ports to be created and assigned to the contract.
+
+
 
 ## Rollbacks:
 
