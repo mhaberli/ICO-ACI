@@ -4,12 +4,12 @@
 1. [Overview](#markdown-header-overview)
 2. [Prerequisites](#markdown-header-prerequisites)
 3. [Index](#markdown-header-index)
-4. Workflow - ACI Basic Tenant Config
-5. Workflow - ACI Update Filter
-6. Rollbacks
-7. Documentation reference
+4. [Workflow - ACI Basic Tenant Config](#markdown-header-workflow-aci-basic-tenant-config)
+5. [Workflow - ACI Update Filter](#markdown-header-workflow-aci-update-filter)
+6. [Rollbacks](#markdown-header-rollbacks)
+7. [Documentation reference](#markdown-header-documentation-reference)
 
-# Overview
+## Overview
 
 The ICO `Workflow`  leverages the Invoke Web API Request functionality of the `Tasks` construct to create objects in ACI APIC controller.
 
@@ -19,7 +19,7 @@ The ICO `Workflow`  leverages the Invoke Web API Request functionality of the `T
 
 
 
-## Prerequisites:
+## Prerequisites
 To execute the workflow, the APIC controller must be connected to Intersight by adding it as a `Target`. [Link to adding targets](https://intersight.com/help/saas/getting_started/claim_targets#target_claim_for_compute/fabric_hyperconverged_orchestrator_and_platform_services_targets).
 
 ## Index 
