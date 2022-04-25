@@ -1,12 +1,13 @@
 # Objective: This document describes the process of automating ACI basic tenant configuration using Intersight Cloud Orchestrator (ICO).
 
 # Table of Contents
-1. Prerequisites
-2. Index
-3. Workflow - ACI Basic Tenant Config
-4. Workflow - ACI Update Filter
-5. Rollbacks
-6. Documentation reference
+1. Overview
+2. Prerequisites
+3. Index
+4. Workflow - ACI Basic Tenant Config
+5. Workflow - ACI Update Filter
+6. Rollbacks
+7. Documentation reference
 
 # Overview
 
