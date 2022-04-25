@@ -2,8 +2,8 @@
 
 # Table of Contents
 1. [Overview](#markdown-header-overview)
-2. Prerequisites
-3. Index
+2. [Prerequisites](#markdown-header-prerequisites)
+3. [Index](#markdown-header-index)
 4. Workflow - ACI Basic Tenant Config
 5. Workflow - ACI Update Filter
 6. Rollbacks
