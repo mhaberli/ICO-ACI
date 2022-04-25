@@ -1,12 +1,19 @@
 # ICO-ACI
 
-Objectiv: (this dokuments descri
-      ![image](https://user-images.githubusercontent.com/101187572/165049862-263bce7c-7b36-4ffe-bf9a-4a6c9a41a0a1.png)
+# Objective: This document describes the process of automating ACI basic tenant configuration using Intersight Cloud Orchestrator (ICO).
+![10_39_14](https://user-images.githubusercontent.com/104349654/165052699-3ef7df7f-86cd-4484-bea0-eb6a4157cbf3.jpg)
+![10_37_31](https://user-images.githubusercontent.com/104349654/165052705-a05eb5a3-4429-4243-9beb-8bb2763aa133.jpg)
+![10_43_55](https://user-images.githubusercontent.com/104349654/165053540-13ffeab8-fea7-4cac-9a0b-ea999d8fffab.jpg)
 
 
-Refrence: (Varibals, input veribals, urls to documentation)
 
-Prer: ACi connect. link to offical site (Intersight Target)
+## Index 
+- ``Variables``:  
+- ``Task input variables``:
+- ``Workflow input variables``:
+
+## Prerequisite: 
+ACi connect. link to offical site (Intersight Target)
 
 Workflows
 Tasks
@@ -17,3 +24,5 @@ screenshot of workflow.
 
 
 
+## Documentation reference:
+- 
