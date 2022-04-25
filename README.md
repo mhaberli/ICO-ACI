@@ -1,13 +1,13 @@
 # The process of automating ACI basic tenant configuration using Intersight Cloud Orchestrator (ICO).
 
 # Table of Contents
-1. [Overview](#markdown-header-overview)
-2. [Prerequisites](#markdown-header-prerequisites)
-3. [Index](#markdown-header-index)
-4. [Workflow - ACI Basic Tenant Config](#markdown-header-workflow-aci-basic-tenant-config)
-5. [Workflow - ACI Update Filter](#markdown-header-workflow-aci-update-filter)
-6. [Rollbacks](#markdown-header-rollbacks)
-7. [Documentation reference](#markdown-header-documentation-reference)
+* [Overview](#markdown-header-overview)
+* [Prerequisites](#markdown-header-prerequisites)
+* [Index](#markdown-header-index)
+* [Workflow - ACI Basic Tenant Config](#markdown-header-workflow-aci-basic-tenant-config)
+* [Workflow - ACI Update Filter](#markdown-header-workflow-aci-update-filter)
+* [Rollbacks](#markdown-header-rollbacks)
+* [Documentation reference](#markdown-header-documentation-reference)
 
 ## Overview
 
