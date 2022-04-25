@@ -1,4 +1,4 @@
-# Objective: This document describes the process of automating ACI basic tenant configuration using Intersight Cloud Orchestrator (ICO).
+# The process of automating ACI basic tenant configuration using Intersight Cloud Orchestrator (ICO).
 
 # Table of Contents
 1. [Overview](#markdown-header-overview)
@@ -11,7 +11,7 @@
 
 ## Overview
 
-The ICO `Workflow`  leverages the Invoke Web API Request functionality of the `Tasks` construct to create objects in ACI APIC controller.
+This document describes the process of automating ACI basic tenant configuration using Intersight Cloud Orchestrator (ICO). The ICO `Workflow`  leverages the Invoke Web API Request functionality of the `Tasks` construct to create objects in ACI APIC controller.
 
 ![10_37_31](https://user-images.githubusercontent.com/104349654/165052705-a05eb5a3-4429-4243-9beb-8bb2763aa133.jpg)
 ![10_39_14](https://user-images.githubusercontent.com/104349654/165052699-3ef7df7f-86cd-4484-bea0-eb6a4157cbf3.jpg)
