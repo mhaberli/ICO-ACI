@@ -83,6 +83,12 @@ The workflow contains all the tasks required to delete and/or add addtional filt
 - Delete Port: List of ports to be deleted. 
 - Add Port: List of ports to be created and assigned to the contract.
 
+## Rollbacks:
+
+ICO supports the functionality of rollbacks by reverting entities created or modified when executing a workflow. You can choose one or more `tasks` to revert back as shown in the figure below:
+
+![12_18_43](https://user-images.githubusercontent.com/104349654/165070438-26b65ce3-f162-47a7-af38-2b1a7a9625ff.jpg)
+
 
 
 ## Documentation reference:
