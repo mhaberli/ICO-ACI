@@ -2,13 +2,13 @@
 
 
 ## Table of Contents
-* [Overview](#markdown-header-overview)
+* [Overview](#header-overview)
 * [Prerequisites](#markdown-header-prerequisites)
 * [Index](#markdown-header-index)
 * [Workflow - ACI Basic Tenant Config](#markdown-header-workflow-aci-basic-tenant-config)
 * [Workflow - ACI Update Filter](#markdown-header-workflow-aci-update-filter)
 * [Rollbacks](#markdown-header-rollbacks)
-* [Documentation reference](#markdown-header-documentation-reference)
+* [Documentation reference](#header-documentation-reference)
 
 - - -
 
