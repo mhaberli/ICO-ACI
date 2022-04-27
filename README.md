@@ -1,8 +1,8 @@
 # The process of automating ACI basic tenant configuration using Intersight Cloud Orchestrator (ICO).
 
+This document describes the process of automating ACI basic tenant configuration using Intersight Cloud Orchestrator (ICO). The ICO `Workflow`  leverages the Invoke Web API Request functionality of the `Tasks` construct to create objects in ACI APIC controller.
 
 ## Table of Contents
-* [Overview](https://github.com/mhaberli/ICO-ACI/blob/main/README.md#overview)
 * [Prerequisites](https://github.com/mhaberli/ICO-ACI/blob/main/README.md#prerequisites)
 * [Index](https://github.com/mhaberli/ICO-ACI/blob/main/README.md#index)
 * [Workflow - ACI Basic Tenant Config](https://github.com/mhaberli/ICO-ACI/blob/main/README.md#workflow---aci-basic-tenant-config)
@@ -12,11 +12,21 @@
 
 - - -
 
-## Overview
+## Prerequisites
+To execute the workflow, the APIC controller must be connected to Intersight by adding it as a `Target`. [Link to adding targets](https://intersight.com/help/saas/getting_started/claim_targets#target_claim_for_compute/fabric_hyperconverged_orchestrator_and_platform_services_targets).
 
-This document describes the process of automating ACI basic tenant configuration using Intersight Cloud Orchestrator (ICO). The ICO `Workflow`  leverages the Invoke Web API Request functionality of the `Tasks` construct to create objects in ACI APIC controller.
 
-### Step 1: Fill the mandatory inputs in to the workflow
+## Index 
+- ``Task input variables``: An input parameter (optional or mandatory) that defines a variable in the API request. Task inputs are referenced as ``{{.global.task.input.InputName}}``.
+- ``Workflow input variables``: A variable (optional or mandatory) that can be mapped to task inputs. 
+- `Body`: Part of mandatory task input variables that contains the JSON body request sent to the APIC.  
+
+
+
+##  Workflow - ACI Basic Tenant Config:
+
+### Step 1: Fill the inputs in to the workflow
+**Note**: All input variables under this workflow are required.
 <p align="center">
     <img src="https://user-images.githubusercontent.com/104349654/165052705-a05eb5a3-4429-4243-9beb-8bb2763aa133.jpg" width="500" />
 </p>
@@ -32,18 +42,6 @@ This document describes the process of automating ACI basic tenant configuration
 </p>
 
 
-## Prerequisites
-To execute the workflow, the APIC controller must be connected to Intersight by adding it as a `Target`. [Link to adding targets](https://intersight.com/help/saas/getting_started/claim_targets#target_claim_for_compute/fabric_hyperconverged_orchestrator_and_platform_services_targets).
-
-
-## Index 
-- ``Task input variables``: An input parameter (optional or mandatory) that defines a variable in the API request. Task inputs are referenced as ``{{.global.task.input.InputName}}``.
-- ``Workflow input variables``: An variable (optional or mandatory) that can be mapped to task inputs. 
-- `Body`: Part of mandatory task input variables that contains the JSON body request sent to the APIC.  
-
-
-
-##  Workflow - ACI Basic Tenant Config:
 The workflow contains all the tasks required to achieve the objective as shown above under objective. The workflow accomplishes the tasks as follow:
 - Create a `Tenant` in ACI.
 
@@ -74,13 +72,6 @@ The workflow contains all the tasks required to achieve the objective as shown a
 
 - Assign `Contract` as a `Provider` to the `Private-EPG`.
 
-
-**Workflow input variables**:
-
-**Note**: All input variables under this workflow are required.
-<p align="center">
-  <img src="https://user-images.githubusercontent.com/104349654/165052705-a05eb5a3-4429-4243-9beb-8bb2763aa133.jpg" width="500" />
-</p>
 
 - Name: This variable will be mapped to `Tenant`, `VRF`, `BD`, `Application Profile (AP)`.
 - PORT: List of ports that should be allowed as defined by your filter.
