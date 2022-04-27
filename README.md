@@ -20,10 +20,10 @@ This document describes the process of automating ACI basic tenant configuration
     <img src="https://user-images.githubusercontent.com/104349654/165052705-a05eb5a3-4429-4243-9beb-8bb2763aa133.jpg" width="500" />
 </p>
 <p align="center">
-   <img src="https://user-images.githubusercontent.com/104349654/165052699-3ef7df7f-86cd-4484-bea0-eb6a4157cbf3.jpg" width="500" />
+   <img src="https://user-images.githubusercontent.com/104349654/165052699-3ef7df7f-86cd-4484-bea0-eb6a4157cbf3.jpg" width="550" />
 </p>
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/104349654/165053540-13ffeab8-fea7-4cac-9a0b-ea999d8fffab.jpg" width="500" />
+  <img src="https://user-images.githubusercontent.com/104349654/165053540-13ffeab8-fea7-4cac-9a0b-ea999d8fffab.jpg" width="700" />
 </p>
 
 
@@ -73,7 +73,9 @@ The workflow contains all the tasks required to achieve the objective as shown a
 **Workflow input variables**:
 
 **Note**: All input variables under this workflow are required.
-![10_37_31](https://user-images.githubusercontent.com/104349654/165052705-a05eb5a3-4429-4243-9beb-8bb2763aa133.jpg)
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/104349654/165052705-a05eb5a3-4429-4243-9beb-8bb2763aa133.jpg" width="500" />
+</p>
 
 - Name: This variable will be mapped to `Tenant`, `VRF`, `BD`, `Application Profile (AP)`.
 - PORT: List of ports that should be allowed as defined by your filter.
@@ -98,8 +100,9 @@ The workflow contains all the tasks required to delete and/or add addtional filt
 **Workflow input variables**:
 
 **Note**: All input variables are optional except the `Name of Tenant` and `External Target`.
-![12_11_25](https://user-images.githubusercontent.com/104349654/165069298-446d1e5a-d565-496c-9f55-03282dd12b94.jpg)
-
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/104349654/165069298-446d1e5a-d565-496c-9f55-03282dd12b94.jpg" width="500" />
+</p>
 
 - External Target: As assigned under `Targets`. Must be the same target as in the previous workflow.
 - Name of Tenant: Must be the exact same name of the `Tenant` as in the previous workflow.
@@ -112,8 +115,9 @@ The workflow contains all the tasks required to delete and/or add addtional filt
 
 ICO supports the functionality of rollbacks by reverting entities created or modified when executing a workflow. You can choose one or more `tasks` to revert back as shown in the figure below:
 
-![12_18_43](https://user-images.githubusercontent.com/104349654/165070438-26b65ce3-f162-47a7-af38-2b1a7a9625ff.jpg)
-
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/104349654/165070438-26b65ce3-f162-47a7-af38-2b1a7a9625ff.jpg" width="700" />
+</p>
 
 
 ## Documentation reference:
