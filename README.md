@@ -2,7 +2,7 @@
 
 
 ## Table of Contents
-* [Overview](#header-overview)
+* [Overview](https://github.com/mhaberli/ICO-ACI/blob/main/README.md#overview)
 * [Prerequisites](#markdown-header-prerequisites)
 * [Index](#markdown-header-index)
 * [Workflow - ACI Basic Tenant Config](#markdown-header-workflow-aci-basic-tenant-config)
