@@ -3,12 +3,12 @@
 
 ## Table of Contents
 * [Overview](https://github.com/mhaberli/ICO-ACI/blob/main/README.md#overview)
-* [Prerequisites](#markdown-header-prerequisites)
-* [Index](#markdown-header-index)
-* [Workflow - ACI Basic Tenant Config](#markdown-header-workflow-aci-basic-tenant-config)
-* [Workflow - ACI Update Filter](#markdown-header-workflow-aci-update-filter)
-* [Rollbacks](#markdown-header-rollbacks)
-* [Documentation reference](#header-documentation-reference)
+* [Prerequisites](https://github.com/mhaberli/ICO-ACI/blob/main/README.md#prerequisites)
+* [Index](https://github.com/mhaberli/ICO-ACI/blob/main/README.md#index)
+* [Workflow - ACI Basic Tenant Config](https://github.com/mhaberli/ICO-ACI/blob/main/README.md#workflow---aci-basic-tenant-config)
+* [Workflow - ACI Update Filter](https://github.com/mhaberli/ICO-ACI/blob/main/README.md#workflow---aci-update-filter)
+* [Rollbacks](https://github.com/mhaberli/ICO-ACI/blob/main/README.md#rollbacks)
+* [Documentation reference](https://github.com/mhaberli/ICO-ACI/blob/main/README.md#documentation-reference)
 
 - - -
 
