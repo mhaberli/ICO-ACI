@@ -27,9 +27,18 @@ To execute the workflow, the APIC controller must be connected to Intersight by 
 
 ### Step 1: Fill the inputs in to the workflow
 **Note**: All input variables under this workflow are required.
+
 <p align="center">
     <img src="https://user-images.githubusercontent.com/104349654/165052705-a05eb5a3-4429-4243-9beb-8bb2763aa133.jpg" width="500" />
 </p>
+
+**Workflow input variables**:
+
+- Name: This variable will be mapped to `Tenant`, `VRF`, `BD`, `Application Profile (AP)`.
+- PORT: List of ports that should be allowed as defined by your filter.
+- Gateway IP: The IP address of the `Bridge Domain` subnet gateway.
+- External Target: The external APIC endpoint as assigned under `Intersight Tartgets`
+
 
 ### Step 2: Execute the workflow
 <p align="center">
@@ -73,10 +82,6 @@ The workflow contains all the tasks required to achieve the objective as shown a
 - Assign `Contract` as a `Provider` to the `Private-EPG`.
 
 
-- Name: This variable will be mapped to `Tenant`, `VRF`, `BD`, `Application Profile (AP)`.
-- PORT: List of ports that should be allowed as defined by your filter.
-- Gateway IP: The IP address of the `Bridge Domain` subnet gateway.
-- External Target: The external APIC endpoint as assigned under `Intersight Tartgets`
 
 **Static Values**:
 The values are statically assigned under `Tasks`.
@@ -93,12 +98,13 @@ The workflow contains all the tasks required to delete and/or add addtional filt
 - For each port create a new filter.
 - For each filter created, assign to contract.  
 
-**Workflow input variables**:
 
 **Note**: All input variables are optional except the `Name of Tenant` and `External Target`.
 <p align="center">
   <img src="https://user-images.githubusercontent.com/104349654/165069298-446d1e5a-d565-496c-9f55-03282dd12b94.jpg" width="500" />
 </p>
+
+**Workflow input variables**:
 
 - External Target: As assigned under `Targets`. Must be the same target as in the previous workflow.
 - Name of Tenant: Must be the exact same name of the `Tenant` as in the previous workflow.
